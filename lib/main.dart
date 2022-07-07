@@ -17,6 +17,10 @@ class MyApp extends StatelessWidget {
       initialRoute: AppNames.mainScreen,
       debugShowCheckedModeBanner: false,
       getPages: App.screens,
+      theme: ThemeData(
+          useMaterial3: false,
+          primarySwatch: Colors.amber,
+          scaffoldBackgroundColor: const Color(0xffF9F9F9)),
     );
   }
 }
