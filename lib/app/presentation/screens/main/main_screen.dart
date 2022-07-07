@@ -9,7 +9,10 @@ class MainScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    MainController mMainController = Get.put(MainController());
+
+
+   MainController mMainController =Get.find<MainController>();
+
     return Obx(() {
       return Scaffold(
         appBar: AppBar(title: const Text('Home')),
