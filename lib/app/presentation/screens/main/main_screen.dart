@@ -9,9 +9,9 @@ class MainScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    MainController mMainController = Get.find<MainController>();
 
-
-   MainController mMainController =Get.find<MainController>();
+    mMainController.fetchSomething();
 
     return Obx(() {
       return Scaffold(
