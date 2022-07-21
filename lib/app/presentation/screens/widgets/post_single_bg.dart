@@ -12,7 +12,7 @@ class PostSingleBg extends StatelessWidget {
       margin: const EdgeInsets.only(bottom: 16),
       height: 400,
       decoration: BoxDecoration(
-          color: Color.fromARGB(255, 214, 214, 214), borderRadius: BorderRadius.circular(16)),
+          color: const Color.fromARGB(255, 214, 214, 214), borderRadius: BorderRadius.circular(16)),
       child: Container(
         width: double.infinity,
         padding: const EdgeInsets.symmetric(vertical: 16, horizontal: 14),
