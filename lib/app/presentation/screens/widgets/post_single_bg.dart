@@ -10,7 +10,6 @@ class PostSingleBg extends StatelessWidget {
     return Container(
       width: double.infinity,
       margin: const EdgeInsets.only(bottom: 16),
-      height: 400,
       decoration: BoxDecoration(
           color: const Color.fromARGB(255, 214, 214, 214), borderRadius: BorderRadius.circular(16)),
       child: Container(

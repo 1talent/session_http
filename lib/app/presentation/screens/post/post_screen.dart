@@ -1,5 +1,6 @@
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:session_http/app/presentation/screens/post/post_like_design.dart';
 import 'package:session_http/app/presentation/screens/post/post_name_time_ago.dart';
@@ -49,11 +50,11 @@ class PostScreen extends StatelessWidget {
                       'https://cdn.pixabay.com/photo/2022/06/03/03/50/beach-7239311_1280.jpg',
                   fit: BoxFit.cover,
                   width: double.infinity,
-                  height: 185,
+                  height: 185.h,
                 ),
               ),
               SizedBox(
-                height: 8,
+                height: 8.h,
               ),
               Text(
                 'this is very good',
@@ -63,7 +64,7 @@ class PostScreen extends StatelessWidget {
                     fontWeight: FontWeight.w500),
               ),
               SizedBox(
-                height: 8,
+                height: 8.h,
               ),
               PostLikeDesign(likeCount: 12),
               SizedBox(
