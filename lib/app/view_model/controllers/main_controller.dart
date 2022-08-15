@@ -13,6 +13,6 @@ class MainController extends GetxController {
 
     final result = await http.get(url);
 
-    print(result.body);
+    //print(result.body);
   }
 }
