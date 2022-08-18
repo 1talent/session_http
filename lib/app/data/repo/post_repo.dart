@@ -7,6 +7,7 @@ import 'package:session_http/app/utils/api_result.dart';
 
 class PostRepo {
   Future<ApiResult> getPostList() async {
+    
     ApiResponse result = await ApiHelper().getData("post");
 
     if (result.status == Status.sucess) {
